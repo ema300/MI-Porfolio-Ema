@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--  -->
+        <!--añadido-->
+        <link rel="stylesheet" href="css/estilos.css">
+        <script src="./js/controller.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+        <!--  -->
+        <link rel="icon" type="png" href="./imagenes/perfil2.jpg" />
+        <title>Acuña David Emanuel</title>
+    </head>
+    <header>
+        <div>
+            <nav class="navbar">
+
+                <!--   <div class="nav_logo">DEA</div>-->
+
+                <div class="nav_items" id="_items">
+                    <a href="javascript:moverseA('')">INICIO</a>
+                    <a href="javascript:moverseA('sobremi')">SOBRE MI</a>
+                    <a href="javascript:moverseA('proyectos')">PROYECTOS</a>
+                    <a href="javascript:moverseA('contacto')">CONTACTO</a>
+                </div>
+                <div class="nav_toggle" onclick="menu()" id="_toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                </div>
+
+            </nav>
+        </div>
+        <div class="whatsapp" data-aos="fade-up">
+            <img id="wtp" src="imagenes/wtp.png" alt=""
+                onclick="window.location='https://api.whatsapp.com/send?phone=5491130444888&text=Hola!%20Quiero%20contactarme%20con%20vos!'" />
+        </div>
+    </header>
+
+
+    <body>
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init()
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/@mojs/core"></script>
+
+        <div class="flex-container">
+
+            <div class="item1">
+
+
+                <!-- perfil -->
+                <div class="fondo_perfil" data-aos="fade-down">
+                    <img src="./imagenes/perfil2.jpg" alt="perfil" class="perfil" />
+                </div>
+                <!-- titulo -->
+                <div class="titulo">
+                    <h3 class="line-1 anim-typewriter">ACUÑA DAVID EMANUEL</h3>
+                    <h4 data-aos="fade-up">Desarrollador Full Stack</h4>
+                    <h4 data-aos="fade-down" data-aos-delay="1200">Maquetador Web</h4>
+                </div>
+
+
+            </div>
+
+
+
+            <div class="item2" id="sobremi">
+
+                <h2 data-aos="fade-up" data-aos-delay="1200">SOBRE MI</h2><br />
+                <p class="line-2 anim-typewriter-2">
+                    Hola me llamo Emanuel<br />
+                </p>
+
+                <button data-aos="fade-rigth" id="boton_escritura" onclick="typeWriter()">Haz Click mas sobre
+                    mi</button>
+                <p id="parrafo1"></p>
+                <br /><br />
+                <p id="parrafo2"></p>
+                <br /><br />
+                <p id="parrafo3"></p>
+                <br /><br />
+                <a id="boton_escritura" data-aos="fade-rigth"
+                    href="https://www.linkedin.com/in/david-emanuel-acu%C3%B1a-806a4918a/">Ir a LinkedIn</a>
+                <!-- descargar en drive 
+          href="https://drive.google.com/file/d/1iBVAzPoFCyMka48mYZNh-BIg-iTPWp5W/view?usp=sharing" download="CV"-->
+
+            </div>
+            <div class="item3">
+
+                <h3 data-aos="fade-rigth">Lenguajes de Programación</h3>
+                <img src="imagenes/pc.png" alt="" id="img_lenguajes" />
+                <br />
+
+                <h4 data-aos="fade-rigth">Java</h4>
+                <img class="icon-progreso" src="imagenes/java.png" alt="icon-css" />
+                <progress id="barProgreso" max="100" value="90"></progress><br /><br />
+                <h4 data-aos="fade-rigth">JavaScript</h4>
+                <img class="icon-progreso" src="imagenes/js.png" alt="icon-css" />
+                <progress id="barProgreso" max="100" value="75"></progress><br /><br />
+                <h4 data-aos="fade-rigth">Python</h4>
+                <img class="icon-progreso" src="imagenes/python.png" alt="icon-css" />
+                <progress id="barProgreso" max="100" value="50"></progress><br /><br />
+                <h4 data-aos="fade-rigth">HTML</h4>
+                <img class="icon-progreso" src="imagenes/html.png" alt="icon-css" />
+                <progress id="barProgreso" max="100" value="90"></progress><br /><br />
+                <h4 data-aos="fade-rigth">CSS</h4>
+                <img class="icon-progreso" src="imagenes/css.png" alt="icon-css" />
+                <progress id="barProgreso" max="100" value="70"></progress><br /><br />
+                <h4 data-aos="fade-rigth">SQL</h4>
+                <img class="icon-progreso" src="imagenes/sql.png" alt="icon-css" />
+                <progress id="barProgreso" max="100" value="60"></progress><br /><br />
+                <h4 data-aos="fade-rigth">PHP</h4>
+                <img class="icon-progreso" src="imagenes/php.png" alt="icon-css" />
+                <progress id="barProgreso" max="100" value="20"></progress><br /><br />
+                <h4 data-aos="fade-rigth">C++</h4>
+                <img class="icon-progreso" src="imagenes/c++.png" alt="icon-css" />
+                <progress id="barProgreso" max="100" value="30"></progress><br /><br />
+
+
+            </div>
+            <div class="item4" id="proyectos">
+                <h2 id="T1" data-aos="fade-down">MIS PROYECTOS</h2> <br /><br />
+                <img data-aos="fade-up" src="imagenes/programador.png" alt="imagen" id="imagen_programador" />
+                <div id="intro_proyectos">
+                    <p data-aos="fade-down">A continuación, expuse algunos de mis proyectos web. Prodras ver el link en
+                        los videos para dirigirte al repositorio donde estan alojados o podrás direccionarte a la página
+                        en donde vas a poder interactuar en ellas.</p>
+                </div>
+                <div id="proyectos">
+                    <h4 data-aos="fade-rigth">JAGUARETE KAA S.A <br />(TIENDA E-COMMERCE )</h4>
+                    <iframe class="imagenes_proyectos"  src="https://www.youtube.com/embed/wHoeLCfwA1E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                    <p>
+                        Implementada con: <br />
+                        JDIANGO , HTML Y CSS <br /> <br />
+                        Es una pagina web de una tienda de productos. Con un diseño adaptable a mobile, tablet o
+                        escritorio. <br /><br />
+                        Hay tres tipos de usarios: <br /> <br />
+                        Usuario comun: Agregar productos al carrito. <br />
+                        Usuario moderador: Ingresar productos nuevos. <br />
+                        Administrador: Control de todo. <br /> <br />
+                        Para realizar alguna acción en el sitio, debe loguearse primero. Segun que tipo de usuario el
+                        sistema identifique, se mostrará las distintas pantallas con sus respectivas acciones. <br />
+                    </p>
+                </div>
+                <div id="proyectos">
+                    <h4>JEHOVAJIREh (Venta de cortinas)<br /> (E-COMMERCE )</h4>
+                    <p>
+
+                        <iframe class="imagenes_proyectos"  src="https://ema300.github.io/Tienda-de-cortinas/"
+                            frameborder="0"></iframe>
+                        <br/>
+                        Implementada con: <br/><br/>
+                        JAVASCRIPT, HTML Y CSS <br/> <br/>
+                        Es una pagina web de ventas de cortinas a medidas, con un diseño adaptable a mobile, tablet o
+                        escritorio. El usuario puede elegir su producto y luego solicitarlo desde la pagina al whatsapp
+                        del vendedor                        
+                    </p>
+                    <a id="boton_escritura" data-aos="fade-rigth" href="https://ema300.github.io/Tienda-de-cortinas/">Ir a la Tienda</a>
+
+                </div>
+
+
+
+
+
+
+
+
+
+            </div>
+            <div class="item5">
+
+                <h2 data-aos="fade-rigth">HABILIDADES</h2> <br />
+                <!-- <img src="imagenes/nija.png" alt="" id="img_habilidades"> -->
+                <h4 data-aos="fade-rigth">&#x2714; AUTODIDACTA</h4><br /><br />
+
+                <h4>&#x2714; CREATIVO</h4><br /><br />
+
+                <h4>&#x2714; RESPONSABLE</h4><br /><br />
+
+                <h4>&#x2714; PROACTIVO</h4><br /><br />
+
+                <h4>&#x2714; ADAPTABLE</h4><br /><br />
+
+
+
+            </div>
+            <div class="item6" id="contacto">
+                <section class="contact_form" id="contacto" data-aos="fade-rigth">
+                    <div class="formulario" >
+                        <h1 data-aos="fade-up">Formulario de contacto</h1>
+                        <p data-aos="fade-up">No dudes en contactarme</p>
+                        <form action="enviar.php" method="post">
+                            <!-- envia el formulario con los datos completados -->
+                            <label data-aos="fade-up" for="nombre" class="colocar_nombre">
+                                Nombre
+                                <span class="obligatorio">*</span>
+                            </label>
+                            <input type="text" name="introducir_nombre" id="nombre" required
+                                placeholder="Escribe tu nombre" />
+                            <label data-aos="fade-up" for="email" class="colocar_email">Email<span
+                                    class="obligatorio">*</span></label>
+                            <input type="email" name="introducir_email" id="email" required
+                                placeholder="Escribe tu Email" />
+                            <label data-aos="fade-up" for="asunto" class="colocar_asunto">Asunto<span
+                                    class="obligatorio">*</span></label>
+                            <input type="text" name="introducir_asunto" id="asunto" required
+                                placeholder="Escribe un asunto" />
+                            <label data-aos="fade-up" for="mensaje" class="colocar_mensaje">Mensaje<span
+                                    class="obligatorio">*</span></label>
+                            <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required
+                                placeholder="Deja aquí tu comentario..."></textarea> <br />
+                            <p>
+                                <span class="obligatorio">*</span>los campos son obligatorios.
+                            </p>
+
+                            <!-- boton de envio formulario -->
+                            <button data-aos="fade-up" type="submit" name="enviar_formulario"
+                                id="enviar">Enviar</button>
+                        </form>
+                    </div>
+                </section>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+        <div class="copyright">
+            <!-- Copyright -->
+            &copy; 2023 mi Porfolio. Derechos reservados.
+        </div>
+    </body>
+
+</html>
