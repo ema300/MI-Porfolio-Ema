@@ -209,7 +209,7 @@ body {
 
 .item6 {
   width: 55%;
-  height: 64em;
+  height: 70em;
   background: rgb(4, 34, 7);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   padding: 3em;
@@ -221,7 +221,8 @@ body {
 .contact_form input {
   background-color: #fbfbfb;
   width: 100%;
-  height: 3em;
+  font-size: 1.3em;
+  height: 4rem;
   border-radius: 0.5rem;
   border-style: solid;
   border-width: 0.1rem;
@@ -239,8 +240,8 @@ body {
   border-radius: 0.5rem;
   border-style: solid;
   border-color: #1af54a;
-  /* margin: 2rem; */
   padding-left: 1rem;
+  font-size: 1.3em;
   padding-top: 1.5rem;
   margin-top: 1rem;
 }
@@ -305,27 +306,13 @@ body {
 }
 
 .contact_form {
-  width: 100%;
-  height: 92rem;
+  width: 90%;
+  font-size: 1.3em;
   float: left;
   margin-top: 2rem;
   padding: 2rem;
   border-radius: 2rem;
   background-clip: padding-box;
-}
-
-.contact_form input {
-  background-color: #fbfbfb;
-  width: 100%;
-  height: 6rem;
-  border-radius: 0.5rem;
-  border-style: solid;
-  border-width: 0.1rem;
-  border-color: #1af54a;
-  margin: 0rem;
-  margin-top: 1rem;
-  padding-left: 1rem;
-  margin-bottom: 1rem;
 }
 
 .contact_form textarea {
@@ -335,7 +322,7 @@ body {
   border-radius: 0.5rem;
   border-style: solid;
   border-color: #1af54a;
-  /* margin: 2rem; */
+  font-size: 1.3em;
   padding-left: 1rem;
   padding-top: 1.5rem;
   margin-top: 1rem;
@@ -592,15 +579,14 @@ p {
     margin: 0em 4% 2em 0em;
   }
   .item6 {
-    width: 97%;
-    height: 73em;
-    margin: 0em 0em 0em 0em;
+    width: 85%;
+    height: 78em;
     background: rgb(4, 34, 7);
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    padding: 3em 0em 0em 0em;
+    padding: 1em;
     border-radius: 44px 44px 44px 44px;
     -moz-border-radius: 44px 44px 44px 44px;
-    margin: 3em 0em 0em 0em;
+    margin: 2em 0em 0em 0em;
   }
   .contact_form {
     width: 85%;
@@ -634,11 +620,11 @@ p {
     /* padding-top: 1.5rem; */
     /* margin-top: 1rem; */
   }
-}
-#wtp {
-  width: 5em;
-  position: fixed;
-  top: 86%;
-  right: 5%;
-  transform: translate(0%, 0%);
+  #wtp {
+    width: 5em;
+    position: fixed;
+    top: 86%;
+    right: 5%;
+    transform: translate(0%, 0%);
+  }
 }/*# sourceMappingURL=estilos.css.map */
