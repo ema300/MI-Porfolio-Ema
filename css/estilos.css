@@ -9,11 +9,6 @@ body {
   background: linear-gradient(90deg, rgb(53, 63, 49) 0%, rgb(55, 163, 41) 54%, rgb(0, 0, 0) 100%);
 }
 
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 #wtp {
   width: 6em;
   position: fixed;
@@ -370,7 +365,7 @@ h1, h2 {
 }
 
 h3 {
-  font-size: 2em;
+  font-size: 1.4em;
 }
 
 h4 {
@@ -439,12 +434,22 @@ p {
   }
 }
 @media screen and (max-width: 650px) {
+  .flex-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #1af54a;
+    padding: 0em 0em 0em 0em;
+    gap: 1em;
+    justify-content: center;
+  }
   .navbar {
     top: 0%;
     left: 4%;
     right: 4%;
     height: 60px;
     display: flex;
+    margin: 0em 0em 0em 0em;
     border-radius: 0em 0em 1em 1em;
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     align-content: flex-start;
@@ -503,8 +508,8 @@ p {
   }
   .item1 {
     height: 29em;
-    margin-top: 0em;
-    width: 74%;
+    margin: 0em 0em 0em 0em;
+    width: 86%;
     background: rgba(10, 10, 18, 0.94);
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     padding: 10em 0em 0em 2em;
@@ -512,17 +517,18 @@ p {
     -moz-border-radius: 44px 44px 44px 44px;
   }
   .item2 {
-    width: 60%;
+    width: 70%;
     height: 45em;
+    margin: 0em 0em 0em 0em;
     background: #091a09;
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     padding: 4em 3em 3em 3em;
     border-radius: 44px 44px 44px 44px;
     -moz-border-radius: 44px 44px 44px 44px;
-    margin: 0em 0em 0em 0em;
   }
   .item3 {
-    width: 65%;
+    width: 79%;
+    margin: 0em 0em 0em 0em;
     background: rgb(4, 34, 7);
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     border-radius: 44px 44px 44px 44px;
@@ -533,8 +539,18 @@ p {
     border-radius: 2rem;
     background-clip: padding-box;
   }
+  .item4 {
+    width: 88%;
+    background: rgb(4, 34, 7);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    padding: 3em;
+    border-radius: 44px 44px 44px 44px;
+    -moz-border-radius: 44px 44px 44px 44px;
+    margin: -36em 0em 0em 0em;
+  }
   .item5 {
-    width: 65%;
+    width: 78%;
+    margin: 0em 0em 0em 0em;
     background: rgb(4, 34, 7);
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     padding: 2em;
@@ -546,8 +562,15 @@ p {
     float: left;
     background-color: rgb(51, 135, 45);
     border-radius: 2em;
-    padding: 4em 3em 3em 3em;
-    margin: 0em -2em 2em -2em;
+    padding: 0.9em 0.5em 1em 0.5em;
+    margin: 0em 0em 0em 0em;
+  }
+  #intro_proyectos {
+    width: 82%;
+    float: left;
+    border-radius: 2em;
+    padding: 2rem;
+    margin: 0em 0em 4em 0em;
   }
   .imagenes_proyectos {
     width: 100%;
@@ -560,9 +583,15 @@ p {
     border-radius: 1em 1em 1em 1em;
     -moz-border-radius: 44px 44px 44px 44px;
   }
+  #imagen_programador {
+    width: 100%;
+    float: left;
+    margin: 0em 4% 2em 0em;
+  }
   .item6 {
-    width: 79%;
+    width: 97%;
     height: 80em;
+    margin: 0em 0em 0em 0em;
     background: rgb(4, 34, 7);
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     padding: 0em;
@@ -571,8 +600,16 @@ p {
     margin: 1em 0em 0em 0em;
   }
   .contact_form {
-    width: 77%;
+    width: 85%;
     height: 2rem;
     float: left;
+    margin: 0em 0em 0em 0em;
   }
+}
+#wtp {
+  width: 5em;
+  position: fixed;
+  top: 86%;
+  right: 5%;
+  transform: translate(0%, 0%);
 }/*# sourceMappingURL=estilos.css.map */
