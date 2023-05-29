@@ -1,0 +1,261 @@
+/*Formulario*/
+.item6 {
+  margin: $margin_item;
+  height: auto;
+  background: $gris;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  padding: $padding_item;
+  border-radius: 44px 44px 44px 44px;
+  -moz-border-radius: 44px 44px 44px 44px;
+  margin: $margin_item;
+}
+.contact_form {
+  /*width: 100%;*/
+  font-size: 1em;
+  /*float: left;*/
+  /* margin-top: 2rem; */
+  /* padding: 2rem; */
+  /* border-radius: 2rem; */
+  /* background-clip: padding-box; */
+}
+.contact_form p {
+  font-size: 0.7em;
+}
+.contact_form input {
+  background-color: #fbfbfb;
+  width: 96%;
+  font-size: 0.7em;
+  height: 4rem;
+  border-radius: 0.5rem;
+  border-style: solid;
+  border-width: 0.1rem;
+  border-color: #1af54a;
+  margin: 0rem;
+  margin-top: 1rem;
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+}
+/*Mensaje de envio*/
+.contact_form textarea {
+  background-color: #fbfbfb;
+  width: 100%;
+  height: 23rem;
+  border-radius: 0.5rem;
+  border-style: solid;
+  border-color: #1af54a;
+  padding-left: 1rem;
+  font-size: 1em;
+  padding-top: 1.5rem;
+  margin-top: 1rem;
+}
+
+.contact_form label {
+  margin-left: 0rem;
+  float: center;
+}
+
+.contact_form button {
+  height: 4.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  /* margin-left: 2rem; */
+  text-transform: uppercase;
+  background-color: $verde_claro;
+  color: #fff;
+  border-style: solid;
+  border-radius: 1rem;
+  width: 100%;
+  cursor: pointer;
+}
+
+.contact_form button p {
+  color: #fff;
+}
+
+.contact_form span {
+  margin-left: 0.2rem;
+  color: #faf603;
+}
+
+
+
+.formulario h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.formulario a {
+  display: block;
+  padding: 10px 30px;
+  background: #39d7ff;
+  text-decoration: none;
+  margin-top: 3rem;
+  border-radius: 0.5rem;
+  color: #FFF;
+}
+
+.formulario #enviar:hover {
+  background: #33a000;
+}
+
+.contact_form textarea {
+  background-color: #fbfbfb;
+  width: 100%;
+  height: 23rem;
+  border-radius: 0.5rem;
+  border-style: solid;
+  border-color: #1af54a;
+  font-size: 1.3em;
+  padding-left: 1rem;
+  padding-top: 1.5rem;
+  margin-top: 1rem;
+}
+
+.contact_form label {
+  margin-left: 0rem;
+  float: center;
+}
+
+
+  /*Responsive mobile arriba de esto*/
+/*tablet*/
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    
+}
+/*portatil*/
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    
+}
+/*escritorio*/
+@media screen and (min-width: 993px) {
+    
+
+  .item6 {
+    width: 55%;
+    height: 70em;
+    background: $gris;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    padding: 3em;
+    border-radius: 44px 44px 44px 44px;
+    -moz-border-radius: 44px 44px 44px 44px;
+    margin: 2em 0em 0em 0em;
+  }
+  
+  .contact_form input {
+    background-color: #fbfbfb;
+    width: 100%;
+    font-size: 0.7em;
+    height: 4rem;
+    border-radius: 0.5rem;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: #1af54a;
+    margin: 0rem;
+    margin-top: 1rem;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .contact_form textarea {
+    background-color: #fbfbfb;
+    width: 100%;
+    height: 23rem;
+    border-radius: 0.5rem;
+    border-style: solid;
+    border-color: #1af54a;
+    padding-left: 1rem;
+    font-size: 1em;
+    padding-top: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  .contact_form label {
+    margin-left: 0rem;
+    float: center;
+  }
+  
+  .contact_form button {
+    height: 4.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    text-transform: uppercase;
+    background-color: $verde_claro;
+    color: #fff;
+    border-style: solid;
+    border-radius: 1rem;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  .contact_form button p {
+    color: #fff;
+  }
+  
+  .contact_form span {
+    margin-left: 2rem;
+    color: #faf603;
+  }
+  
+  .contact_form h1 {
+    font-size: 3.9rem;
+    text-align: center;
+    padding-bottom: 2rem;
+  
+  }
+  
+  /*----------Mensaje de envio-----------*/
+  .formulario h1 {
+    font-size: 35px;
+    display: block;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .formulario a {
+    display: block;
+    padding: 10px 30px;
+    background: #39d7ff;
+    text-decoration: none;
+    margin-top: 3rem;
+    border-radius: 0.5rem;
+    color: #FFF;
+  }
+  
+  .formulario #enviar:hover {
+    background: #33a000;
+  }
+  
+  .contact_form {
+    width: 90%;
+    font-size: 1.3em;
+    float: left;
+    margin-top: 2rem;
+    padding: 2rem;
+    border-radius: 2rem;
+    background-clip: padding-box;
+  }
+  
+  .contact_form textarea {
+    background-color: #fbfbfb;
+    width: 100%;
+    height: 23rem;
+    border-radius: 0.5rem;
+    border-style: solid;
+    border-color: #1af54a;
+    font-size: 1em;
+    padding-left: 1rem;
+    padding-top: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  .contact_form label {
+    margin-left: 0rem;
+    float: center;
+  }
+  
+    
+}

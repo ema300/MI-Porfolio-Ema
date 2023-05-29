@@ -1,0 +1,93 @@
+/*Proyecto*/
+
+.item4 {
+  margin: $margin_item;
+  background:$gris;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  padding: $padding_item;
+  border-radius: 44px 44px 44px 44px;
+  -moz-border-radius: 44px 44px 44px 44px;
+  background-color: rgb(35 44 34);
+}
+
+  #intro_proyectos {
+    
+    float: left;
+    background-color:$verde_claro;
+    border-radius: 2em;
+    padding: 2rem;
+    margin: 0em 0em 3em 0em;
+  }
+  .imagenes_proyectos {
+    width: 100%;
+    height: 18em;
+
+    margin: 1em 0em 1em 0em;
+ 
+  }
+  #proyectos{
+    padding: 3em 0em 0em 0em;
+  }
+  #imagen_programador {
+    width: 100%;
+   /* float: left;*/
+    margin: 0em 0em 2em 0em;
+}
+
+  /*Responsive mobile arriba de esto*/
+/*tablet*/
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    
+}
+/*portatil*/
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    
+}
+/*escritorio*/
+@media screen and (min-width: 993px) {
+    
+
+  .item4 {
+    width: 55%;
+    background:$gris;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    padding: 3em;
+    border-radius: 44px 44px 44px 44px;
+    -moz-border-radius: 44px 44px 44px 44px;
+    margin: -30em 0em 0em 0em;
+  }
+    #proyectos {
+      float: left;
+      border-radius: 2em;
+      background-color: rgb(35 44 34);
+      border-radius: 2em;
+      padding: $padding_item;
+      margin: none;
+    }
+
+ 
+    #intro_proyectos {
+      width: 19em;
+      float: left;
+      background-color: rgb(4, 201, 37);
+      border-radius: 2em;
+      padding: 2rem;
+      margin: 0em 0em 4em 0em;
+    }
+    .imagenes_proyectos {
+      width: 100%;
+      height: 30em;
+      border-radius: 33px 33px 33px 33px;
+      -moz-border-radius: 33px 33px 33px 33px;
+      -webkit-border-radius: 33px 33px 33px 33px;
+      margin: 1em 0em 2em 0em;
+      box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+      border-radius: 1em 1em 1em 1em;
+      -moz-border-radius: 44px 44px 44px 44px;
+    }
+    #imagen_programador {
+      width: 42%;
+      float: left;
+      margin: 0em 0em 0em 0em;
+    }
+}

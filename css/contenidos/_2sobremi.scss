@@ -1,0 +1,64 @@
+.item2 {
+
+    height: auto;
+    background: $gris;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    padding: $padding_item;
+    border-radius: 44px 44px 44px 44px;
+    -moz-border-radius: 44px 44px 44px 44px;
+    margin: $margin_item;
+  }
+
+  #boton_escritura {
+    display: block;
+    padding: 20px 41px;
+    background: rgb(4, 201, 37);
+    text-align: center;
+    text-decoration: none;
+    margin: 2rem;
+    border-radius: 1rem;
+    color: rgb(255, 255, 255);
+  }
+  
+  #boton_escritura:hover {
+    background: #33a000;
+  }
+  /*Responsive mobile arriba de esto*/
+/*tablet*/
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    
+}
+/*portatil*/
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    
+}
+/*escritorio*/
+@media screen and (min-width: 993px) {
+    
+
+  .item2 {
+    width: 55%;
+    height: 37em;
+    background: $gris;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    padding: 3em;
+    border-radius: 44px 44px 44px 44px;
+    -moz-border-radius: 44px 44px 44px 44px;
+    margin: 0em 0em 0em 0em;
+  }
+
+  #boton_escritura {
+    display: block;
+    padding: 20px 41px;
+    background: rgb(4, 201, 37);
+    text-align: center;
+    text-decoration: none;
+    margin: 2rem;
+    border-radius: 1rem;
+    color: rgb(255, 255, 255);
+  }
+  
+  #boton_escritura:hover {
+    background: #33a000;
+  }
+}

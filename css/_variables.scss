@@ -1,0 +1,31 @@
+/*variables*/
+$blanco:rgb(255, 255, 255);
+$verde_claro:rgb(4, 201, 37);
+$verde_claro2: #33a000;
+$verde_oscuro:rgb(30 52 32);
+$crema:rgb(231, 184, 113);
+$bordo:rgb(119, 24, 7);
+$azul_oscuro:rgb(10 10 18 / 94%);
+$negro: rgba(0, 0, 0, 0.75);
+$gris: rgba(15, 15, 16, 0.94);
+
+/*variables de atributos*/
+$margin_item:0em 0em 0em 0em;
+$padding_item:4em 2em 2em 2em;
+
+/*Responsive mobile arriba de esto*/
+/*tablet*/
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    
+}
+/*portatil*/
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    
+}
+/*escritorio*/
+@media screen and (min-width: 993px) {
+    
+
+    $margin_item:0em 1em 0em 1em;
+    $padding_item:3em 3em 3em 3em;
+}

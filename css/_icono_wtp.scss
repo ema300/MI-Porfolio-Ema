@@ -1,0 +1,29 @@
+/*icono de wtp*/
+#wtp {
+  width: 13%;
+  position: fixed;
+  top: 84%;
+  right: 5%;
+  transform: translate(0%, 0%);
+}
+  /*Responsive mobile arriba de esto*/
+/*tablet*/
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    
+}
+/*portatil*/
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    
+}
+/*escritorio*/
+@media screen and (min-width: 993px) {
+    
+
+  #wtp {
+    width: 6em;
+    position: fixed;
+    top: 85%;
+    right: 3%;
+    transform: translate(0%, 0%);
+  }
+}

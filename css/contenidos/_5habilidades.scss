@@ -1,0 +1,36 @@
+.item5 {
+
+    margin: $margin_item;
+    text-align: center;
+    background:$verde_oscuro;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    padding: $padding_item;
+    border-radius: 44px 44px 44px 44px;
+    -moz-border-radius: 44px 44px 44px 44px;
+    height: 26em;
+  }
+
+  /*Responsive mobile arriba de esto*/
+/*tablet*/
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    
+}
+/*portatil*/
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    
+}
+/*escritorio*/
+@media screen and (min-width: 993px) {
+    
+
+  .item5 {
+    width: 18%;
+    margin: 0em 0em 0em 0em;
+    background: $verde_oscuro;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    padding: 2em;
+    border-radius: 44px 44px 44px 44px;
+    -moz-border-radius: 44px 44px 44px 44px;
+    height: auto;
+  }
+}

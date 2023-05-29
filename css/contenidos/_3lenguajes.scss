@@ -1,0 +1,91 @@
+.item3 {
+  
+    margin: $margin_item;
+    background: $verde_oscuro;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 44px 44px 44px 44px;
+    -moz-border-radius: 44px 44px 44px 44px;
+    height: auto;
+    text-align: center;
+    padding: $padding_item;
+    /*float: right;*/
+    border-radius: 2rem;
+    background-clip: padding-box;
+}
+
+#img_lenguajes {
+    width: 39%;
+  }
+
+  /* barra de progreso */
+  #barProgreso {
+    width: 88%;
+    margin-left: 1rem;
+    padding: 1rem;
+  }
+  
+  /* iconos de barra de progreso */
+  .icon-progreso {
+    width: 3rem;
+  }
+
+
+  /*Responsive mobile arriba de esto*/
+/*tablet*/
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    
+}
+/*portatil*/
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    
+}
+/*escritorio*/
+@media screen and (min-width: 993px) {
+    
+
+
+  .item3 {
+    width: 18%;
+    margin: 0em 1em 0em 1em;
+    background: $verde_oscuro;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 44px 44px 44px 44px;
+    -moz-border-radius: 44px 44px 44px 44px;
+    height: auto;
+    text-align: center;
+    padding: 2em 2em 2em 2em;
+    /*float: right;*/
+    border-radius: 2rem;
+    background-clip: padding-box;
+}
+
+#imagen_programador {
+  width: 45%;
+  float: left;
+  margin: 0em 4% 2em 0em;
+}
+
+.imagenes_proyectos {
+  width: 100%;
+  height: 30em;
+  margin: 1em 0em 2em 0em;
+}
+
+#intro_proyectos {
+  width: 19em;
+  float: left;
+  background-color: rgb(4, 201, 37);
+  border-radius: 2em;
+  padding: 2rem;
+  margin: 0em 0em 4em 0em;
+}
+
+#proyectos {
+  float: left;
+  background-color: rgb(51, 135, 45);
+  border-radius: 2em;
+  padding: 2rem;
+  margin: 0em 0em 3em 0em;
+}
+
+}

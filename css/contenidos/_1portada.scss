@@ -1,0 +1,81 @@
+/*Portada*/
+
+.item1 {
+ 
+    height: 30em;
+    margin: $margin_item;
+    background: $gris;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    padding: 5em 0em 0em 0em;
+  border-radius: 0px 0px 80px 80px;
+  -moz-border-radius: 44px 44px 44px 44px;
+}
+
+.perfil {
+    border-radius: 50%;
+    height: 18em;
+    top: 4em;
+    left: 4em;
+    z-index: 1;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
+  
+  /*  fondo perfil*/
+  .fondo_perfil {
+    background-color: #b19b6b;
+    text-align: center;
+    border-radius: 95px 0px 95px 95px;
+    -moz-border-radius: 95px 0px 0px 95px;
+    -webkit-border-radius: 106px 0px 51x 95px;
+    border: 0px solid #000000;
+    padding: 1em 0em 1em 0em;
+    margin: 1em;
+    
+    
+  }
+/*Responsive mobile arriba de esto*/
+/*tablet*/
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    
+}
+/*portatil*/
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    
+}
+/*escritorio*/
+@media screen and (min-width: 993px) {
+    
+
+    .item1 {
+        margin: 0em 8% 0em 8%;
+        height: 20em;
+        width: 74%;
+        background:$gris;
+        box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+        padding: 7em 0em 0em 2em;
+        border-radius: 0px 0px 150px 150px;
+        -moz-border-radius: 44px 44px 44px 44px;
+      }
+  
+    .perfil {
+        border-radius: 50%;
+        height: 14em;
+        top: 4em;
+        left: 4em;
+        z-index: 1;
+        box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+      }
+      
+      /*  fondo perfil*/
+      .fondo_perfil {
+        text-align: none;
+        background-color: #b19b6b;
+        border-radius: 95px 0px 95px 95px;
+        -moz-border-radius: 95px 0px 0px 95px;
+        -webkit-border-radius: 106px 0px 51x 95px;
+        border: 0px solid #000000;
+        padding: 1em 0em 1em 0em;
+        width: 17em;
+        float: left;
+      }
+}
