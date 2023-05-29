@@ -2,13 +2,12 @@
 $blanco:rgb(255, 255, 255);
 $verde_claro:rgb(4, 201, 37);
 $verde_claro2: #33a000;
-$verde_oscuro:rgb(30 52 32);
-$crema:rgb(231, 184, 113);
+$verde_oscuro: linear-gradient(90deg, rgb(0 0 0) 30%, rgb(44 100 61) 100%, rgb(66 93 98) 100%);
+$crema:  rgb(223 179 110);
 $bordo:rgb(119, 24, 7);
 $azul_oscuro:rgb(10 10 18 / 94%);
 $negro: rgba(0, 0, 0, 0.75);
-$gris: rgba(15, 15, 16, 0.94);
-
+$gris:linear-gradient(273deg, rgb(0, 0, 0) 0%, rgb(8 28 23) 52%, rgb(0, 0, 0) 100%);
 /*variables de atributos*/
 $margin_item:0em 0em 0em 0em;
 $padding_item:4em 2em 2em 2em;

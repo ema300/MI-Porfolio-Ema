@@ -4,7 +4,7 @@
  
     height: 30em;
     margin: $margin_item;
-    background: $gris;
+    background: $verde_oscuro;
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     padding: 5em 0em 0em 0em;
   border-radius: 0px 0px 80px 80px;
@@ -22,11 +22,12 @@
   
   /*  fondo perfil*/
   .fondo_perfil {
-    background-color: #b19b6b;
+    background-color: $crema;
     text-align: center;
     border-radius: 95px 0px 95px 95px;
     -moz-border-radius: 95px 0px 0px 95px;
     -webkit-border-radius: 106px 0px 51x 95px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     border: 0px solid #000000;
     padding: 1em 0em 1em 0em;
     margin: 1em;
@@ -50,7 +51,7 @@
         margin: 0em 8% 0em 8%;
         height: 20em;
         width: 74%;
-        background:$gris;
+        background:$verde_oscuro;
         box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
         padding: 7em 0em 0em 2em;
         border-radius: 0px 0px 150px 150px;
@@ -69,11 +70,12 @@
       /*  fondo perfil*/
       .fondo_perfil {
         text-align: none;
-        background-color: #b19b6b;
+        background-color: $crema;
         border-radius: 95px 0px 95px 95px;
         -moz-border-radius: 95px 0px 0px 95px;
         -webkit-border-radius: 106px 0px 51x 95px;
         border: 0px solid #000000;
+        box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
         padding: 1em 0em 1em 0em;
         width: 17em;
         float: left;
