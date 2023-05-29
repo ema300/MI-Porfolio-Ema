@@ -2,6 +2,7 @@
 /*variables de atributos*/
 /*Responsive mobile arriba de esto*/
 /*tablet*/
+@import "https://unpkg.com/transition-style";
 /*portatil*/
 /*escritorio*/
 /*html*/
@@ -608,7 +609,7 @@ p {
 .contact_form input {
   background-color: #fbfbfb;
   width: 96%;
-  font-size: 0.7em;
+  font-size: 1em;
   height: 4rem;
   border-radius: 0.5rem;
   border-style: solid;
@@ -836,7 +837,7 @@ p {
 #wtp {
   width: 20%;
   position: fixed;
-  top: 84%;
+  top: 78%;
   right: 5%;
   transform: translate(0%, 0%);
 }
