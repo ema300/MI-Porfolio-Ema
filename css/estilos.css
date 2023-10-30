@@ -1,5 +1,5 @@
 /*variables*/
-/*variables de atributos*/
+/*variables de atributos #003151*/
 /*Responsive mobile arriba de esto*/
 /*tablet*/
 @import "https://unpkg.com/transition-style";
@@ -14,7 +14,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(255, 255, 255);
-  background: linear-gradient(270deg, rgb(16, 34, 23) 30%, rgb(34, 72, 46) 100%, rgb(34, 71, 78) 100%);
+  background: linear-gradient(86deg, rgb(2, 38, 68) 29%, rgb(93, 175, 239) 100%, rgb(0, 0, 0) 100%);
 }
 
 /*Texto*/
@@ -43,6 +43,7 @@ p {
 /* PIE DE PAGINA */
 .copyright {
   text-align: right;
+  color: linear-gradient(86deg, rgba(21, 124, 135, 0.88) 29%, rgb(166, 194, 215) 100%, rgb(102, 40, 40) 100%);
   margin: 1rem;
   padding: 1rem;
 }
@@ -74,7 +75,7 @@ p {
   left: 4%;
   right: 4%;
   height: 60px;
-  background: rgba(11, 27, 20, 0.89);
+  background: linear-gradient(86deg, rgba(0, 26, 58, 0.88) 29%, rgb(45, 102, 143) 100%, rgb(0, 0, 0) 100%);
   display: flex;
   align-content: flex-start;
   justify-content: flex-start;
@@ -86,7 +87,6 @@ p {
   position: absolute;
   top: 60px;
   left: 0;
-  background: rgba(11, 27, 20, 0.89);
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -99,7 +99,7 @@ p {
   text-align: center;
   margin: 1.2em;
   font-size: 1em;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   position: relative;
   text-decoration: none;
 }
@@ -170,6 +170,7 @@ p {
     position: relative;
     top: 0;
     left: 0;
+    background-color: linear-gradient(86deg, rgba(0, 26, 58, 0.88) 29%, rgb(45, 102, 143) 100%, rgb(0, 0, 0) 100%);
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -199,7 +200,7 @@ p {
     bottom: 0;
     width: 0;
     height: 2px;
-    background: rgb(4, 201, 37);
+    background: linear-gradient(86deg, rgba(103, 171, 255, 0.88) 29%, rgb(77, 147, 197) 100%, rgb(0, 0, 0) 100%);
     transition: all 0.5s;
   }
   .nav_items a:hover::before {
@@ -278,7 +279,7 @@ p {
 .item1 {
   height: 30em;
   margin: 0em 0em 0em 0em;
-  background: linear-gradient(90deg, rgb(0, 0, 0) 30%, rgb(44, 100, 61) 100%, rgb(66, 93, 98) 100%);
+  background: linear-gradient(86deg, rgba(21, 124, 135, 0.88) 29%, rgb(166, 194, 215) 100%, rgb(102, 40, 40) 100%);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   padding: 5em 0em 0em 0em;
   border-radius: 0px 0px 80px 80px;
@@ -296,7 +297,7 @@ p {
 
 /*  fondo perfil*/
 .fondo_perfil {
-  background-color: rgb(223, 179, 110);
+  background-color: #b6c4eb;
   text-align: center;
   border-radius: 95px 0px 95px 95px;
   -moz-border-radius: 95px 0px 0px 95px;
@@ -316,7 +317,7 @@ p {
     margin: 0em 8% 0em 8%;
     height: 20em;
     width: 74%;
-    background: linear-gradient(90deg, rgb(0, 0, 0) 30%, rgb(44, 100, 61) 100%, rgb(66, 93, 98) 100%);
+    background: linear-gradient(86deg, rgba(21, 124, 135, 0.88) 29%, rgb(166, 194, 215) 100%, rgb(102, 40, 40) 100%);
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     padding: 7em 0em 0em 2em;
     border-radius: 0px 0px 150px 150px;
@@ -333,7 +334,7 @@ p {
   /*  fondo perfil*/
   .fondo_perfil {
     text-align: none;
-    background-color: rgb(223, 179, 110);
+    background-color: #b6c4eb;
     border-radius: 95px 0px 95px 95px;
     -moz-border-radius: 95px 0px 0px 95px;
     -webkit-border-radius: 106px 0px 51x 95px;
@@ -346,7 +347,7 @@ p {
 }
 .item2 {
   height: auto;
-  background: linear-gradient(273deg, rgb(0, 0, 0) 0%, rgb(8, 28, 23) 52%, rgb(0, 0, 0) 100%);
+  background: linear-gradient(86deg, rgba(21, 124, 135, 0.88) 29%, rgb(166, 194, 215) 100%, rgb(102, 40, 40) 100%);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   padding: 4em 2em 2em 2em;
   border-radius: 44px 44px 44px 44px;
@@ -357,7 +358,7 @@ p {
 #boton_escritura {
   display: block;
   padding: 20px 41px;
-  background: rgb(4, 201, 37);
+  background: linear-gradient(86deg, rgba(0, 26, 58, 0.88) 29%, rgb(45, 102, 143) 100%, rgb(0, 0, 0) 100%);
   text-align: center;
   text-decoration: none;
   margin: 2rem;
@@ -366,7 +367,7 @@ p {
 }
 
 #boton_escritura:hover {
-  background: #33a000;
+  background: linear-gradient(86deg, rgba(103, 171, 255, 0.88) 29%, rgb(77, 147, 197) 100%, rgb(0, 0, 0) 100%);
 }
 
 /*Responsive mobile arriba de esto*/
@@ -377,7 +378,7 @@ p {
   .item2 {
     width: 55%;
     height: 37em;
-    background: linear-gradient(273deg, rgb(0, 0, 0) 0%, rgb(8, 28, 23) 52%, rgb(0, 0, 0) 100%);
+    background: linear-gradient(86deg, rgba(21, 124, 135, 0.88) 29%, rgb(166, 194, 215) 100%, rgb(102, 40, 40) 100%);
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     padding: 3em;
     border-radius: 44px 44px 44px 44px;
@@ -387,7 +388,7 @@ p {
   #boton_escritura {
     display: block;
     padding: 20px 41px;
-    background: rgb(4, 201, 37);
+    background: linear-gradient(86deg, rgba(0, 26, 58, 0.88) 29%, rgb(45, 102, 143) 100%, rgb(0, 0, 0) 100%);
     text-align: center;
     text-decoration: none;
     margin: 2rem;
@@ -395,12 +396,12 @@ p {
     color: rgb(255, 255, 255);
   }
   #boton_escritura:hover {
-    background: #33a000;
+    background: linear-gradient(86deg, rgba(103, 171, 255, 0.88) 29%, rgb(77, 147, 197) 100%, rgb(0, 0, 0) 100%);
   }
 }
 .item3 {
   margin: 0em 0em 0em 0em;
-  background: linear-gradient(90deg, rgb(0, 0, 0) 30%, rgb(44, 100, 61) 100%, rgb(66, 93, 98) 100%);
+  background: linear-gradient(86deg, rgba(0, 26, 58, 0.88) 29%, rgb(45, 102, 143) 100%, rgb(0, 0, 0) 100%);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   border-radius: 44px 44px 44px 44px;
   -moz-border-radius: 44px 44px 44px 44px;
@@ -436,7 +437,7 @@ p {
   .item3 {
     width: 18%;
     margin: 0em 1em 0em 1em;
-    background: linear-gradient(90deg, rgb(0, 0, 0) 30%, rgb(44, 100, 61) 100%, rgb(66, 93, 98) 100%);
+    background: linear-gradient(86deg, rgba(0, 26, 58, 0.88) 29%, rgb(45, 102, 143) 100%, rgb(0, 0, 0) 100%);
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     border-radius: 44px 44px 44px 44px;
     -moz-border-radius: 44px 44px 44px 44px;
@@ -447,46 +448,20 @@ p {
     border-radius: 2rem;
     background-clip: padding-box;
   }
-  #imagen_programador {
-    width: 45%;
-    float: left;
-    margin: 0em 4% 2em 0em;
-  }
-  .imagenes_proyectos {
-    width: 100%;
-    height: 30em;
-    margin: 1em 0em 2em 0em;
-  }
-  #intro_proyectos {
-    width: 19em;
-    float: left;
-    background-color: rgb(4, 201, 37);
-    border-radius: 2em;
-    padding: 2rem;
-    margin: 0em 0em 4em 0em;
-  }
-  #proyectos {
-    float: left;
-    background-color: rgb(51, 135, 45);
-    border-radius: 2em;
-    padding: 2rem;
-    margin: 0em 0em 3em 0em;
-  }
 }
 /*Proyecto*/
 .item4 {
   margin: 0em 0em 0em 0em;
-  background: linear-gradient(273deg, rgb(0, 0, 0) 0%, rgb(8, 28, 23) 52%, rgb(0, 0, 0) 100%);
+  background: linear-gradient(86deg, rgba(21, 124, 135, 0.88) 29%, rgb(166, 194, 215) 100%, rgb(102, 40, 40) 100%);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   padding: 4em 2em 2em 2em;
   border-radius: 44px 44px 44px 44px;
   -moz-border-radius: 44px 44px 44px 44px;
-  background-color: rgb(35, 44, 34);
 }
 
 #intro_proyectos {
   float: left;
-  background-color: rgb(4, 201, 37);
+  background-color: #1b3845;
   border-radius: 2em;
   padding: 2rem;
   margin: 0em 0em 3em 0em;
@@ -494,12 +469,12 @@ p {
 
 .imagenes_proyectos {
   width: 100%;
-  height: 18em;
   margin: 1em 0em 1em 0em;
 }
 
 #proyectos {
   padding: 3em 0em 0em 0em;
+  border-radius: 2em;
 }
 
 #imagen_programador {
@@ -515,7 +490,7 @@ p {
 @media screen and (min-width: 993px) {
   .item4 {
     width: 55%;
-    background: linear-gradient(273deg, rgb(0, 0, 0) 0%, rgb(8, 28, 23) 52%, rgb(0, 0, 0) 100%);
+    background: linear-gradient(86deg, rgba(21, 124, 135, 0.88) 29%, rgb(166, 194, 215) 100%, rgb(102, 40, 40) 100%);
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     padding: 3em;
     border-radius: 44px 44px 44px 44px;
@@ -524,27 +499,20 @@ p {
   }
   #proyectos {
     float: left;
-    background-color: rgb(35, 44, 34);
+    background-color: #1b3845;
     padding: 4em 2em 2em 2em;
-    margin: none;
+    margin: 1em 0em 0em 0em;
   }
   #intro_proyectos {
     width: 19em;
     float: left;
-    background-color: rgb(4, 201, 37);
+    background-color: #1b3845;
     border-radius: 2em;
     padding: 2rem;
     margin: 0em 0em 4em 0em;
   }
   .imagenes_proyectos {
     width: 100%;
-    height: 30em;
-    border-radius: 33px 33px 33px 33px;
-    -moz-border-radius: 33px 33px 33px 33px;
-    -webkit-border-radius: 33px 33px 33px 33px;
-    margin: 1em 0em 2em 0em;
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    -moz-border-radius: 44px 44px 44px 44px;
   }
   #imagen_programador {
     width: 42%;
@@ -555,7 +523,7 @@ p {
 .item5 {
   margin: 0em 0em 0em 0em;
   text-align: center;
-  background: linear-gradient(90deg, rgb(0, 0, 0) 30%, rgb(44, 100, 61) 100%, rgb(66, 93, 98) 100%);
+  background: linear-gradient(86deg, rgba(0, 26, 58, 0.88) 29%, rgb(45, 102, 143) 100%, rgb(0, 0, 0) 100%);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   padding: 4em 2em 2em 2em;
   border-radius: 44px 44px 44px 44px;
@@ -571,7 +539,7 @@ p {
   .item5 {
     width: 18%;
     margin: 0em 0em 0em 0em;
-    background: linear-gradient(90deg, rgb(0, 0, 0) 30%, rgb(44, 100, 61) 100%, rgb(66, 93, 98) 100%);
+    background: linear-gradient(86deg, rgba(0, 26, 58, 0.88) 29%, rgb(45, 102, 143) 100%, rgb(0, 0, 0) 100%);
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     padding: 2em;
     border-radius: 44px 44px 44px 44px;
@@ -583,7 +551,7 @@ p {
 .item6 {
   margin: 0em 0em 0em 0em;
   height: auto;
-  background: linear-gradient(273deg, rgb(0, 0, 0) 0%, rgb(8, 28, 23) 52%, rgb(0, 0, 0) 100%);
+  background: linear-gradient(86deg, rgba(21, 124, 135, 0.88) 29%, rgb(166, 194, 215) 100%, rgb(102, 40, 40) 100%);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   padding: 4em 2em 2em 2em;
   border-radius: 44px 44px 44px 44px;
@@ -591,29 +559,12 @@ p {
   margin: 0em 0em 0em 0em;
 }
 
-.contact_form {
-  /*width: 100%;*/
-  font-size: 1em;
-  /*float: left;*/
-  /* margin-top: 2rem; */
-  /* padding: 2rem; */
-  /* border-radius: 2rem; */
-  /* background-clip: padding-box; */
-}
-
-.contact_form p {
-  font-size: 0.7em;
-}
-
 .contact_form input {
-  background-color: #fbfbfb;
+  border: none;
   width: 96%;
   font-size: 1em;
   height: 4rem;
   border-radius: 0.5rem;
-  border-style: solid;
-  border-width: 0.1rem;
-  border-color: #1af54a;
   margin: 0rem;
   margin-top: 1rem;
   padding-left: 1rem;
@@ -622,14 +573,12 @@ p {
 
 /*Mensaje de envio*/
 .contact_form textarea {
-  background-color: #fbfbfb;
-  width: 100%;
-  height: 23rem;
+  border: none;
+  width: 95%;
+  height: 15rem;
   border-radius: 0.5rem;
-  border-style: solid;
-  border-color: #1af54a;
   padding-left: 1rem;
-  font-size: 1em;
+  font-size: 1.5em;
   padding-top: 1.5rem;
   margin-top: 1rem;
 }
@@ -639,29 +588,9 @@ p {
   float: center;
 }
 
-.contact_form button {
-  height: 4.5rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  margin-bottom: 2rem;
-  margin-top: 1rem;
-  /* margin-left: 2rem; */
-  text-transform: uppercase;
-  background-color: rgb(4, 201, 37);
-  color: #fff;
-  border-style: solid;
-  border-radius: 1rem;
-  width: 100%;
-  cursor: pointer;
-}
-
-.contact_form button p {
-  color: #fff;
-}
-
 .contact_form span {
   margin-left: 0.2rem;
-  color: #faf603;
+  color: #ece800;
 }
 
 .formulario h1 {
@@ -669,36 +598,21 @@ p {
   margin-bottom: 2rem;
 }
 
-.formulario a {
+#enviar {
   display: block;
-  padding: 10px 30px;
-  background: #39d7ff;
-  text-decoration: none;
-  margin-top: 3rem;
-  border-radius: 0.5rem;
-  color: #FFF;
-}
-
-.formulario #enviar:hover {
-  background: #33a000;
-}
-
-.contact_form textarea {
-  background-color: #fbfbfb;
+  border: none;
   width: 100%;
-  height: 23rem;
-  border-radius: 0.5rem;
-  border-style: solid;
-  border-color: #1af54a;
-  font-size: 1.3em;
-  padding-left: 1rem;
-  padding-top: 1.5rem;
-  margin-top: 1rem;
+  padding: 20px 41px;
+  background: linear-gradient(86deg, rgba(0, 26, 58, 0.88) 29%, rgb(45, 102, 143) 100%, rgb(0, 0, 0) 100%);
+  text-align: center;
+  text-decoration: none;
+  margin: 2em 0em 0em 0em;
+  border-radius: 1rem;
+  color: rgb(255, 255, 255);
 }
 
-.contact_form label {
-  margin-left: 0rem;
-  float: center;
+#enviar:hover {
+  background: linear-gradient(86deg, rgba(103, 171, 255, 0.88) 29%, rgb(77, 147, 197) 100%, rgb(0, 0, 0) 100%);
 }
 
 /*Responsive mobile arriba de esto*/
@@ -709,7 +623,7 @@ p {
   .item6 {
     width: 55%;
     height: 70em;
-    background: linear-gradient(273deg, rgb(0, 0, 0) 0%, rgb(8, 28, 23) 52%, rgb(0, 0, 0) 100%);
+    background: linear-gradient(86deg, rgba(21, 124, 135, 0.88) 29%, rgb(166, 194, 215) 100%, rgb(102, 40, 40) 100%);
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     padding: 3em;
     border-radius: 44px 44px 44px 44px;
@@ -717,51 +631,24 @@ p {
     margin: 2em 0em 0em 0em;
   }
   .contact_form input {
-    background-color: #fbfbfb;
     width: 100%;
-    font-size: 0.7em;
+    font-size: 1em;
     height: 4rem;
     border-radius: 0.5rem;
-    border-style: solid;
-    border-width: 0.1rem;
-    border-color: #1af54a;
     margin: 0rem;
     margin-top: 1rem;
     padding-left: 1rem;
     margin-bottom: 1rem;
   }
   .contact_form textarea {
-    background-color: #fbfbfb;
+    border: none;
     width: 100%;
     height: 23rem;
     border-radius: 0.5rem;
-    border-style: solid;
-    border-color: #1af54a;
     padding-left: 1rem;
-    font-size: 1em;
+    font-size: 1.5em;
     padding-top: 1.5rem;
     margin-top: 1rem;
-  }
-  .contact_form label {
-    margin-left: 0rem;
-    float: center;
-  }
-  .contact_form button {
-    height: 4.5rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    margin-bottom: 2rem;
-    margin-top: 1rem;
-    text-transform: uppercase;
-    background-color: rgb(4, 201, 37);
-    color: #fff;
-    border-style: solid;
-    border-radius: 1rem;
-    width: 100%;
-    cursor: pointer;
-  }
-  .contact_form button p {
-    color: #fff;
   }
   .contact_form span {
     margin-left: 2rem;
@@ -779,42 +666,34 @@ p {
     text-align: center;
     margin-bottom: 2rem;
   }
-  .formulario a {
-    display: block;
-    padding: 10px 30px;
-    background: #39d7ff;
-    text-decoration: none;
-    margin-top: 3rem;
-    border-radius: 0.5rem;
-    color: #FFF;
-  }
   .formulario #enviar:hover {
-    background: #33a000;
+    background: linear-gradient(86deg, rgba(103, 171, 255, 0.88) 29%, rgb(77, 147, 197) 100%, rgb(0, 0, 0) 100%);
   }
   .contact_form {
     width: 90%;
-    font-size: 1.3em;
     float: left;
     margin-top: 2rem;
     padding: 2rem;
     border-radius: 2rem;
-    background-clip: padding-box;
-  }
-  .contact_form textarea {
-    background-color: #fbfbfb;
-    width: 100%;
-    height: 23rem;
-    border-radius: 0.5rem;
-    border-style: solid;
-    border-color: #1af54a;
-    font-size: 1em;
-    padding-left: 1rem;
-    padding-top: 1.5rem;
-    margin-top: 1rem;
   }
   .contact_form label {
     margin-left: 0rem;
     float: center;
+  }
+  #enviar {
+    display: block;
+    border: none;
+    width: 100%;
+    padding: 20px 41px;
+    background: linear-gradient(86deg, rgba(0, 26, 58, 0.88) 29%, rgb(45, 102, 143) 100%, rgb(0, 0, 0) 100%);
+    text-align: center;
+    text-decoration: none;
+    margin: 2em 0em 0em 0em;
+    border-radius: 1rem;
+    color: rgb(255, 255, 255);
+  }
+  #enviar:hover {
+    background: linear-gradient(86deg, rgba(103, 171, 255, 0.88) 29%, rgb(77, 147, 197) 100%, rgb(0, 0, 0) 100%);
   }
 }
 /*Responsive mobile arriba de esto*/
@@ -836,8 +715,8 @@ p {
 #wtp {
   width: 5em;
   position: fixed;
-  top: 80%;
-  right: 5%;
+  top: 78%;
+  right: 3%;
   transform: translate(0%, 0%);
 }
 

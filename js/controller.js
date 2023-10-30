@@ -20,9 +20,9 @@ function moverseA(id) {
 var i = 0
 var x = 0
 var j = 0
-var parrafo1 = 'Soy Desarrollador, tengo 27 años, me gusta la música, programar y en mi pasatiempo me gusta tocar los instrumentos de música, aprender más como desarrollador, pasar tiempo con mi familia.  '
-var parrafo2 = 'Empecé a programar en C++ en la escuela Técnica N°2 y de ahí nació mi pasión por todo lo relacionado  con la programación. La facilidad de aprender  y adaptarme al entorno me ayuda mucho a crecer como  profesional en sistemas. Actualmente me encuentro estudiando la carrera de Licenciatura en Sistemas correlativa con Técnicatura Superior en Informática y en cursos extras capacitando el conocimiento en las nuevas tecnoligías.'
-var parrafo3 = 'En otro apartado podra ver los lenguajes de programación que eh aprendido y que tengo conocimiento hasta ahora. Más abajo podrá encontrar mis trabajos realizados, mis habilidades y un formulario para contactarme. ¡No dudes en contactarme !. '
+var parrafo1 = 'Soy Desarrollador, tengo 28 años, me gusta la música, programar y en mi pasatiempo me gusta tocar los instrumentos de música, aprender más como desarrollador, pasar tiempo con mi familia.  '
+var parrafo2 = 'Empecé a programar en C++ en la escuela Técnica N°2 y de ahí nació mi pasión por todo lo relacionado  con la programación. La facilidad de aprender  y adaptarme al entorno me ayuda mucho a crecer como  profesional en sistemas. Soy docente de informática actualmente me encuentro estudiando la carrera de Licenciatura en Sistemas correlativa con Técnicatura Superior en Informática y en cursos extras capacitando el conocimiento en las nuevas tecnoligías.'
+var parrafo3 = 'En otro apartado podra ver los lenguajes de programación que eh aprendido y que tengo conocimiento hasta ahora. Más abajo podrá encontrar mis trabajos realizados, mis habilidades y un formulario para contactarme.'
 var speed = 50
 
 
@@ -48,3 +48,18 @@ function typeWriter() {
         }
     }
 }
+
+  // Función para enviar un mensaje de WhatsApp
+function enviarW() {
+    const nombre = document.getElementById('nombre').value;
+    const asunto = document.getElementById('asunto').value;
+    const mail = document.getElementById('mail').value;
+    const mensaje = document.getElementById('mensaje').value;
+
+    const telefono = "1130444888"; // Reemplaza con el número de teléfono al que deseas enviar el mensaje.
+
+    const mensajeWhatsApp = `${nombre} \n Asunto: ${asunto} \n te envia el siguiente mensaje: \n ${mensaje} \n  ${mail}`;
+    const urlWhatsApp = `https://api.whatsapp.com/send?phone=${telefono}&text=${encodeURIComponent(mensajeWhatsApp)}`;
+
+    window.location.href = urlWhatsApp;
+};

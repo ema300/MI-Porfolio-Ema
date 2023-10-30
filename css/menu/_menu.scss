@@ -5,7 +5,7 @@
   left: 4%;
   right: 4%;
   height: 60px;
-  background: rgba(11, 27, 20, 0.89);
+  background: $color7;
   display: flex;
   align-content: flex-start;
   justify-content: flex-start;
@@ -17,7 +17,7 @@
   position: absolute;
   top: 60px;
   left: 0;
-  background: rgba(11, 27, 20, 0.89);
+  
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -30,7 +30,7 @@
   
   margin: 1.2em;
   font-size: 1em;
-  color: rgb(255, 255, 255);
+  color: $color1;
   position: relative;
   text-decoration: none;
 }
@@ -42,7 +42,7 @@
 .nav_toggle span {
   width: 30px;
   height: 4px;
-  background: rgb(255, 255, 255);
+  background:$color0;
   margin-bottom: 5px;
   transform-origin: 5px 0px;
   transition: all 0.2s linear;
@@ -67,7 +67,7 @@
  
   margin: 1.2em 1.2em 1.2em 1.2em;
   font-size: 2em;
-  color: $blanco;
+  color: $color0;
   position: relative;
   text-decoration: none;
 }
@@ -106,7 +106,7 @@
   position: relative;
   top: 0;
   left: 0;
- 
+  background-color: $color7; 
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -126,7 +126,7 @@
     text-align: center;
     margin: 1.2em;
     font-size: 1em;
-    color: rgb(255, 255, 255);
+    color: $color0;
     position: relative;
     text-decoration: none;
   }
@@ -138,7 +138,7 @@
     bottom: 0;
     width: 0;
     height: 2px;
-    background: rgb(4, 201, 37);
+    background: $color3;
     transition: all 0.5s;
   }
   

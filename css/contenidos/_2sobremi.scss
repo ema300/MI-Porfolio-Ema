@@ -1,7 +1,7 @@
 .item2 {
 
     height: auto;
-    background: $gris;
+    background: $color5;
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     padding: $padding_item;
     border-radius: 44px 44px 44px 44px;
@@ -12,16 +12,16 @@
   #boton_escritura {
     display: block;
     padding: 20px 41px;
-    background: rgb(4, 201, 37);
+    background: $color7;
     text-align: center;
     text-decoration: none;
     margin: 2rem;
     border-radius: 1rem;
-    color: rgb(255, 255, 255);
+    color: $color0;
   }
   
   #boton_escritura:hover {
-    background: #33a000;
+    background: $color3;
   }
   /*Responsive mobile arriba de esto*/
 /*tablet*/
@@ -39,7 +39,7 @@
   .item2 {
     width: 55%;
     height: 37em;
-    background: $gris;
+    background: $color5;
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     padding: 3em;
     border-radius: 44px 44px 44px 44px;
@@ -50,7 +50,7 @@
   #boton_escritura {
     display: block;
     padding: 20px 41px;
-    background: rgb(4, 201, 37);
+    background: $color7;
     text-align: center;
     text-decoration: none;
     margin: 2rem;
@@ -59,6 +59,6 @@
   }
   
   #boton_escritura:hover {
-    background: #33a000;
+    background: $color3;
   }
 }

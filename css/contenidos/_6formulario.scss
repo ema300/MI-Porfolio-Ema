@@ -2,34 +2,21 @@
 .item6 {
   margin: $margin_item;
   height: auto;
-  background: $gris;
+  background: $color5;
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   padding: $padding_item;
   border-radius: 44px 44px 44px 44px;
   -moz-border-radius: 44px 44px 44px 44px;
   margin: $margin_item;
 }
-.contact_form {
-  /*width: 100%;*/
-  font-size: 1em;
-  /*float: left;*/
-  /* margin-top: 2rem; */
-  /* padding: 2rem; */
-  /* border-radius: 2rem; */
-  /* background-clip: padding-box; */
-}
-.contact_form p {
-  font-size: 0.7em;
-}
+
+
 .contact_form input {
-  background-color: #fbfbfb;
+  border: none;
   width: 96%;
   font-size: 1em;
   height: 4rem;
   border-radius: 0.5rem;
-  border-style: solid;
-  border-width: 0.1rem;
-  border-color: #1af54a;
   margin: 0rem;
   margin-top: 1rem;
   padding-left: 1rem;
@@ -37,14 +24,12 @@
 }
 /*Mensaje de envio*/
 .contact_form textarea {
-  background-color: #fbfbfb;
-  width: 100%;
-  height: 23rem;
+  border: none;
+  width: 95%;
+  height: 15rem;
   border-radius: 0.5rem;
-  border-style: solid;
-  border-color: #1af54a;
   padding-left: 1rem;
-  font-size: 1em;
+  font-size: 1.5em;
   padding-top: 1.5rem;
   margin-top: 1rem;
 }
@@ -54,29 +39,11 @@
   float: center;
 }
 
-.contact_form button {
-  height: 4.5rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  margin-bottom: 2rem;
-  margin-top: 1rem;
-  /* margin-left: 2rem; */
-  text-transform: uppercase;
-  background-color: $verde_claro;
-  color: #fff;
-  border-style: solid;
-  border-radius: 1rem;
-  width: 100%;
-  cursor: pointer;
-}
 
-.contact_form button p {
-  color: #fff;
-}
 
 .contact_form span {
   margin-left: 0.2rem;
-  color: #faf603;
+  color: #ece800;
 }
 
 
@@ -86,39 +53,23 @@
   margin-bottom: 2rem;
 }
 
-.formulario a {
+
+#enviar {
   display: block;
-  padding: 10px 30px;
-  background: #39d7ff;
-  text-decoration: none;
-  margin-top: 3rem;
-  border-radius: 0.5rem;
-  color: #FFF;
-}
-
-.formulario #enviar:hover {
-  background: #33a000;
-}
-
-.contact_form textarea {
-  background-color: #fbfbfb;
+  border: none;
   width: 100%;
-  height: 23rem;
-  border-radius: 0.5rem;
-  border-style: solid;
-  border-color: #1af54a;
-  font-size: 1.3em;
-  padding-left: 1rem;
-  padding-top: 1.5rem;
-  margin-top: 1rem;
+  padding: 20px 41px;
+  background:$color7;
+  text-align: center;
+  text-decoration: none;
+  margin: 2em 0em 0em 0em;
+  border-radius: 1rem;
+  color: rgb(255, 255, 255);
 }
 
-.contact_form label {
-  margin-left: 0rem;
-  float: center;
+#enviar:hover {
+  background: $color3;
 }
-
-
   /*Responsive mobile arriba de esto*/
 /*tablet*/
 @media screen and (min-width: 576px) and (max-width: 768px) {
@@ -135,7 +86,7 @@
   .item6 {
     width: 55%;
     height: 70em;
-    background: $gris;
+    background: $color5;
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     padding: 3em;
     border-radius: 44px 44px 44px 44px;
@@ -144,14 +95,10 @@
   }
   
   .contact_form input {
-    background-color: #fbfbfb;
     width: 100%;
-    font-size: 0.7em;
+    font-size: 1em;
     height: 4rem;
     border-radius: 0.5rem;
-    border-style: solid;
-    border-width: 0.1rem;
-    border-color: #1af54a;
     margin: 0rem;
     margin-top: 1rem;
     padding-left: 1rem;
@@ -159,40 +106,14 @@
   }
   
   .contact_form textarea {
-    background-color: #fbfbfb;
+    border: none;
     width: 100%;
     height: 23rem;
     border-radius: 0.5rem;
-    border-style: solid;
-    border-color: #1af54a;
     padding-left: 1rem;
-    font-size: 1em;
+    font-size: 1.5em;
     padding-top: 1.5rem;
     margin-top: 1rem;
-  }
-  
-  .contact_form label {
-    margin-left: 0rem;
-    float: center;
-  }
-  
-  .contact_form button {
-    height: 4.5rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    margin-bottom: 2rem;
-    margin-top: 1rem;
-    text-transform: uppercase;
-    background-color: $verde_claro;
-    color: #fff;
-    border-style: solid;
-    border-radius: 1rem;
-    width: 100%;
-    cursor: pointer;
-  }
-  
-  .contact_form button p {
-    color: #fff;
   }
   
   .contact_form span {
@@ -215,47 +136,40 @@
     margin-bottom: 2rem;
   }
   
-  .formulario a {
-    display: block;
-    padding: 10px 30px;
-    background: #39d7ff;
-    text-decoration: none;
-    margin-top: 3rem;
-    border-radius: 0.5rem;
-    color: #FFF;
-  }
+ 
   
   .formulario #enviar:hover {
-    background: #33a000;
+    background: $color3;
   }
   
   .contact_form {
     width: 90%;
-    font-size: 1.3em;
     float: left;
     margin-top: 2rem;
     padding: 2rem;
     border-radius: 2rem;
-    background-clip: padding-box;
   }
   
-  .contact_form textarea {
-    background-color: #fbfbfb;
-    width: 100%;
-    height: 23rem;
-    border-radius: 0.5rem;
-    border-style: solid;
-    border-color: #1af54a;
-    font-size: 1em;
-    padding-left: 1rem;
-    padding-top: 1.5rem;
-    margin-top: 1rem;
-  }
+  
   
   .contact_form label {
     margin-left: 0rem;
     float: center;
   }
   
-    
+  #enviar {
+    display: block;
+    border: none;
+    width: 100%;
+    padding: 20px 41px;
+    background: $color7;
+    text-align: center;
+    text-decoration: none;
+    margin: 2em 0em 0em 0em;
+    border-radius: 1rem;
+    color: rgb(255, 255, 255);
+}
+  #enviar:hover {
+    background: $color3;
+  }
 }

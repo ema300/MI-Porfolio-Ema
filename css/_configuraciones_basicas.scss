@@ -8,9 +8,8 @@
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
-  color: rgb(255, 255, 255);
-  background:linear-gradient(270deg, rgb(16 34 23) 30%, rgb(34 72 46) 100%, rgb(34 71 78) 100%);
-  
+  color: $color0;
+  background:linear-gradient(86deg, rgb(2 38 68) 29%, rgb(93 175 239) 100%, rgb(0, 0, 0) 100%);
 }
 /*Texto*/ 
 .titulo {
@@ -18,7 +17,7 @@ body {
 
 }
   h1 ,h2 {
-    color: $blanco;
+    color: $color0;
     font-size: 2rem;
     text-align: center;
   }
@@ -38,6 +37,7 @@ body {
     /* PIE DE PAGINA */
 .copyright {
   text-align: right;
+  color:$color5 ;
   margin: 1rem;
   padding: 1rem;
 }
@@ -56,7 +56,7 @@ body {
     
 
 h1 ,h2 {
-  color: $blanco;
+  color: $color0;
   font-size: 2rem;
   text-align: center;
 }
