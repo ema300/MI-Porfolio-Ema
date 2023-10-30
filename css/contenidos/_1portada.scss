@@ -10,6 +10,9 @@
   border-radius: 0px 0px 80px 80px;
   -moz-border-radius: 44px 44px 44px 44px;
 }
+#T3{
+  color: $color7;
+}
 
 .perfil {
     border-radius: 50%;
@@ -22,7 +25,7 @@
   
   /*  fondo perfil*/
   .fondo_perfil {
-    background-color: $color6;
+    background-color: $color7;
     text-align: center;
     border-radius: 95px 0px 95px 95px;
     -moz-border-radius: 95px 0px 0px 95px;
@@ -70,7 +73,7 @@
       /*  fondo perfil*/
       .fondo_perfil {
         text-align: none;
-        background-color: $color6;
+        background-color: $color7;
         border-radius: 95px 0px 95px 95px;
         -moz-border-radius: 95px 0px 0px 95px;
         -webkit-border-radius: 106px 0px 51x 95px;
@@ -80,4 +83,5 @@
         width: 17em;
         float: left;
       }
+      
 }

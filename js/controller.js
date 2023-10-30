@@ -58,7 +58,7 @@ function enviarW() {
 
     const telefono = "+541130444888"; // Reemplaza con el número de teléfono al que deseas enviar el mensaje.
 
-    const mensajeWhatsApp = `${nombre} \n Asunto: ${asunto} \n te envia el siguiente mensaje: \n ${mensaje} \n  ${mail}`;
+    const mensajeWhatsApp = `${nombre} \n \n *Asunto:* ${asunto} \n \n *Mensaje:* \n  ${mensaje} \n \n  ${mail}`;
     const urlWhatsApp = `https://api.whatsapp.com/send?phone=${telefono}&text=${encodeURIComponent(mensajeWhatsApp)}`;
 
     window.location.href = urlWhatsApp;

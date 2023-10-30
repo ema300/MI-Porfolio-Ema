@@ -14,7 +14,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   color: #7e7a7a;
-  background: rgb(102, 102, 102);
+  background: rgb(54, 54, 54);
 }
 
 /*Texto*/
@@ -87,6 +87,7 @@ p {
   position: absolute;
   top: 60px;
   left: 0;
+  background: rgba(0, 103, 171, 0.6901960784);
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -279,11 +280,15 @@ p {
 .item1 {
   height: 30em;
   margin: 0em 0em 0em 0em;
-  background: rgb(255, 255, 255);
+  background: rgb(26, 26, 26);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   padding: 5em 0em 0em 0em;
   border-radius: 0px 0px 80px 80px;
   -moz-border-radius: 44px 44px 44px 44px;
+}
+
+#T3 {
+  color: #20a6ff;
 }
 
 .perfil {
@@ -297,7 +302,7 @@ p {
 
 /*  fondo perfil*/
 .fondo_perfil {
-  background-color: #038de9;
+  background-color: #20a6ff;
   text-align: center;
   border-radius: 95px 0px 95px 95px;
   -moz-border-radius: 95px 0px 0px 95px;
@@ -317,7 +322,7 @@ p {
     margin: 0em 8% 0em 8%;
     height: 20em;
     width: 74%;
-    background: rgb(255, 255, 255);
+    background: rgb(26, 26, 26);
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     padding: 7em 0em 0em 2em;
     border-radius: 0px 0px 150px 150px;
@@ -334,7 +339,7 @@ p {
   /*  fondo perfil*/
   .fondo_perfil {
     text-align: none;
-    background-color: #038de9;
+    background-color: #20a6ff;
     border-radius: 95px 0px 95px 95px;
     -moz-border-radius: 95px 0px 0px 95px;
     -webkit-border-radius: 106px 0px 51x 95px;
@@ -347,12 +352,16 @@ p {
 }
 .item2 {
   height: auto;
-  background: rgb(255, 255, 255);
+  background: rgb(26, 26, 26);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   padding: 4em 2em 2em 2em;
   border-radius: 44px 44px 44px 44px;
   -moz-border-radius: 44px 44px 44px 44px;
   margin: 0em 0em 0em 0em;
+}
+
+#T1 {
+  color: #7e7a7a;
 }
 
 #boton_escritura {
@@ -378,7 +387,7 @@ p {
   .item2 {
     width: 55%;
     height: 37em;
-    background: rgb(255, 255, 255);
+    background: rgb(26, 26, 26);
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     padding: 3em;
     border-radius: 44px 44px 44px 44px;
@@ -401,7 +410,7 @@ p {
 }
 .item3 {
   margin: 0em 0em 0em 0em;
-  background: rgb(255, 255, 255);
+  background: rgb(26, 26, 26);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   border-radius: 44px 44px 44px 44px;
   -moz-border-radius: 44px 44px 44px 44px;
@@ -437,7 +446,7 @@ p {
   .item3 {
     width: 18%;
     margin: 0em 1em 0em 1em;
-    background: rgb(255, 255, 255);
+    background: rgb(26, 26, 26);
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     border-radius: 44px 44px 44px 44px;
     -moz-border-radius: 44px 44px 44px 44px;
@@ -451,9 +460,9 @@ p {
 }
 /*Proyecto*/
 .item4 {
-  color: aliceblue;
+  color: rgb(255, 255, 255);
   margin: 0em 0em 0em 0em;
-  background: rgb(255, 255, 255);
+  background: rgb(26, 26, 26);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   padding: 4em 2em 2em 2em;
   border-radius: 44px 44px 44px 44px;
@@ -461,20 +470,26 @@ p {
 }
 
 #intro_proyectos {
-  float: left;
   background-color: #038de9;
   border-radius: 2em;
   padding: 2rem;
   margin: 0em 0em 3em 0em;
 }
 
+.imagenes_proyectos1 {
+  width: 100%;
+  height: 25em;
+  margin: 1em 0em 1em 0em;
+}
+
 .imagenes_proyectos {
   width: 100%;
+  height: auto;
   margin: 1em 0em 1em 0em;
 }
 
 #proyectos {
-  padding: 4em 3em 4em 3em;
+  padding: 4em 2em 4em 2em;
   border-radius: 2em;
   background-color: #038de9;
   margin: 1em 0em 0em 0em;
@@ -486,6 +501,10 @@ p {
   margin: 0em 0em 2em 0em;
 }
 
+#T1 {
+  color: #7e7a7a;
+}
+
 /*Responsive mobile arriba de esto*/
 /*tablet*/
 /*portatil*/
@@ -493,7 +512,7 @@ p {
 @media screen and (min-width: 993px) {
   .item4 {
     width: 55%;
-    background: rgb(255, 255, 255);
+    background: rgb(26, 26, 26);
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     padding: 3em;
     border-radius: 44px 44px 44px 44px;
@@ -517,21 +536,29 @@ p {
   .imagenes_proyectos {
     width: 100%;
   }
+  .imagenes_proyectos1 {
+    width: 100%;
+    height: 25em;
+    margin: 1em 0em 1em 0em;
+  }
   #imagen_programador {
     width: 42%;
     float: left;
     margin: 0em 0em 0em 0em;
   }
+  #T1 {
+    color: #7e7a7a;
+    margin: 1em 0em 0em 0em;
+  }
 }
 .item5 {
   margin: 0em 0em 0em 0em;
   text-align: center;
-  background: rgb(255, 255, 255);
+  background: rgb(26, 26, 26);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-  padding: 4em 2em 2em 2em;
+  padding: 4em 2em 4em 2em;
   border-radius: 44px 44px 44px 44px;
   -moz-border-radius: 44px 44px 44px 44px;
-  height: 26em;
 }
 
 /*Responsive mobile arriba de esto*/
@@ -542,7 +569,7 @@ p {
   .item5 {
     width: 18%;
     margin: 0em 0em 0em 0em;
-    background: rgb(255, 255, 255);
+    background: rgb(26, 26, 26);
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     padding: 2em;
     border-radius: 44px 44px 44px 44px;
@@ -554,7 +581,7 @@ p {
 .item6 {
   margin: 0em 0em 0em 0em;
   height: auto;
-  background: rgb(255, 255, 255);
+  background: rgb(26, 26, 26);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   padding: 4em 2em 2em 2em;
   border-radius: 44px 44px 44px 44px;
@@ -611,6 +638,7 @@ p {
   text-decoration: none;
   margin: 2em 0em 0em 0em;
   border-radius: 1rem;
+  font-size: 1em;
   color: rgb(255, 255, 255);
 }
 
@@ -626,7 +654,7 @@ p {
   .item6 {
     width: 55%;
     height: 70em;
-    background: rgb(255, 255, 255);
+    background: rgb(26, 26, 26);
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     padding: 3em;
     border-radius: 44px 44px 44px 44px;
@@ -667,9 +695,6 @@ p {
     text-align: center;
     margin-bottom: 2rem;
   }
-  .formulario #enviar:hover {
-    background: linear-gradient(86deg, rgba(103, 171, 255, 0.88) 29%, rgb(77, 147, 197) 100%, rgb(0, 0, 0) 100%);
-  }
   .contact_form {
     width: 90%;
     float: left;
@@ -692,6 +717,7 @@ p {
     margin: 2em 0em 0em 0em;
     border-radius: 1rem;
     color: rgb(255, 255, 255);
+    font-size: 1em;
   }
   #enviar:hover {
     background: linear-gradient(86deg, rgba(103, 171, 255, 0.88) 29%, rgb(77, 147, 197) 100%, rgb(0, 0, 0) 100%);

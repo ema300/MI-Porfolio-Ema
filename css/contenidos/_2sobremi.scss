@@ -8,7 +8,9 @@
     -moz-border-radius: 44px 44px 44px 44px;
     margin: $margin_item;
   }
-
+  #T1{
+    color: $color2;
+  }
   #boton_escritura {
     display: block;
     padding: 20px 41px;
@@ -61,4 +63,5 @@
   #boton_escritura:hover {
     background: $color3;
   }
+ 
 }
