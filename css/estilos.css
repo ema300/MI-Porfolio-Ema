@@ -280,7 +280,7 @@ p {
 .item1 {
   height: 30em;
   margin: 0em 0em 0em 0em;
-  background: rgb(26, 26, 26);
+  background: rgb(196, 209, 213);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   padding: 5em 0em 0em 0em;
   border-radius: 0px 0px 80px 80px;
@@ -322,7 +322,7 @@ p {
     margin: 0em 8% 0em 8%;
     height: 20em;
     width: 74%;
-    background: rgb(26, 26, 26);
+    background: rgb(196, 209, 213);
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     padding: 7em 0em 0em 2em;
     border-radius: 0px 0px 150px 150px;
@@ -470,7 +470,7 @@ p {
 }
 
 #intro_proyectos {
-  background-color: #005f9e;
+  background-color: #107b8a;
   border-radius: 2em;
   padding: 2rem;
   margin: 0em 0em 3em 0em;
@@ -491,7 +491,7 @@ p {
 #proyectos {
   padding: 4em 1.5em 2em 1.5em;
   border-radius: 2em;
-  background-color: #005f9e;
+  background-color: #107b8a;
   margin: 1em 0em 0em 0em;
 }
 
@@ -521,14 +521,14 @@ p {
   }
   #proyectos {
     float: left;
-    background-color: #005f9e;
+    background-color: #107b8a;
     padding: 4em 3em 4em 3em;
     margin: 1em 0em 0em 0em;
   }
   #intro_proyectos {
     width: 19em;
     float: left;
-    background-color: #005f9e;
+    background-color: #107b8a;
     border-radius: 2em;
     padding: 2rem;
     margin: 0em 0em 4em 0em;
