@@ -20,7 +20,7 @@ function moverseA(id) {
 var i = 0
 var x = 0
 var j = 0
-var parrafo1 = 'Soy Desarrollador, tengo 28 años, me gusta la música, programar y en mi pasatiempo me gusta tocar los instrumentos de música, aprender más como desarrollador, pasar tiempo con mi familia.  '
+var parrafo1 = 'Soy Desarrollador, me gusta la música, programar y en mi pasatiempo me gusta tocar los instrumentos de música, aprender más como desarrollador, pasar tiempo con mi familia.  '
 var parrafo2 = 'Empecé a programar en C++ en la escuela Técnica N°2 y de ahí nació mi pasión por todo lo relacionado  con la programación. La facilidad de aprender  y adaptarme al entorno me ayuda mucho a crecer como  profesional en sistemas. Soy docente de informática actualmente me encuentro estudiando la carrera de Licenciatura en Sistemas correlativa con Técnicatura Superior en Informática y en cursos extras capacitando el conocimiento en las nuevas tecnoligías.'
 var parrafo3 = 'En otro apartado podra ver los lenguajes de programación que eh aprendido y que tengo conocimiento hasta ahora. Más abajo podrá encontrar mis trabajos realizados, mis habilidades y un formulario para contactarme.'
 var speed = 50
